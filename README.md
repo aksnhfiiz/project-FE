@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# e-Portofolio
+## Fitur
+- Halaman Portofolio (Keahlian, Pendidikan, Pengalaman, Tentang, Contact)
+- Navbar dan Sidebar
+- Tombol github
+- Halaman Sign in Premium
+- Input data
+- Delete data
+- Edit data
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Dokumentasi
+1. Halaman Home
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(1).png)
 
-Currently, two official plugins are available:
+2. Sidebar
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(2).png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Halaman Keahlian
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(3).png)
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(4).png)
 
-## Expanding the ESLint configuration
+4. Halaman Pendidikan
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(5).png)
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(6).png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+5. Halaman Pengalaman
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(7).png)
+   
+6. Halaman Tentang
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(11).png)
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(12).png)
 
-- Configure the top-level `parserOptions` property like this:
+7. Halaman Contact
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(8).png)
 
+8. Halaman Premium
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(9).png)
+![image](https://raw.githubusercontent.com/aksnhfiiz/project-FE/main/Screenshot%20(10).png)
+
+
+## Langkah-langkah Instalasi
+1. Buka terminal editor dan ketikan
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+https://github.com/aksnhfiiz/project-FE.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Setelah itu masuk ke direktori project dan ketikkan
+```js
+npm install
+```
+
+3. Jika sudah selesai terakhir tulis
+```js
+npm run dev
+```
+
