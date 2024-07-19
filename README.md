@@ -2,6 +2,7 @@
 ## Fitur
 - Halaman Portofolio (Keahlian, Pendidikan, Pengalaman, Tentang, Contact)
 - Navbar dan Sidebar
+- Foto di home bisa ditekan
 - Tombol github
 - Halaman Sign in Premium
 - Input data
